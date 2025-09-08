@@ -1,5 +1,9 @@
 package Introducao.SealedClass;
 
-public final class Retangulo implements Quadrilatero {
-    
+public final record Retangulo(double base, double altura) implements Quadrilatero {
+    @Override
+    public double calcularArea() {
+        return base * altura;
+    }
+
 }

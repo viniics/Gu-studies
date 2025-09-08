@@ -1,5 +1,10 @@
 package Introducao.SealedClass;
 
-public final class Quadrado implements Quadrilatero{
-    
+public final record Quadrado(double lado) implements Quadrilatero {
+
+    @Override
+    public double calcularArea() {
+        return lado * lado;
+    }
+
 }

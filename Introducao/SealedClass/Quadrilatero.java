@@ -1,5 +1,5 @@
 package Introducao.SealedClass;
 
-public sealed interface Quadrilatero permits Quadrado, Retangulo{
-    
+public sealed interface Quadrilatero permits Quadrado, Retangulo {
+    public double calcularArea();
 }
