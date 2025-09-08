@@ -1,3 +1,5 @@
+package Introducao.RecordClass;
+
 public class Main {
     public static void main(String[] args) {
         Animal gnomo = new Animal("Gnomo", 5, 120,20);

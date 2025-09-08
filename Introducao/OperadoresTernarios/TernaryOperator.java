@@ -1,3 +1,5 @@
+package Introducao.OperadoresTernarios;
+
 class TernaryOperator {
     public static void main(String[] args) {
         System.out.println(imparOuPar(1));

@@ -1,3 +1,5 @@
+package Introducao.KeywordVar;
+
 public class Var {
     public static void main(String[] args) {
         // Java irá fazer a inferencia de tipo, funciona igual a declaracao explicita do tipo.
