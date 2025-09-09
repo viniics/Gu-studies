@@ -11,6 +11,6 @@ public class Main {
     }
 
 
-    public record Carro(String nome, String marca, Integer ano) {
+    record Carro(String nome, String marca, Integer ano) {
     }
 }
