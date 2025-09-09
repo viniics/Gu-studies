@@ -1,4 +1,4 @@
-package Introducao.SealedClass;
+package br.com.gubee.introducao.sealedclass;
 
 public final record Quadrado(double lado) implements Quadrilatero {
 

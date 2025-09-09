@@ -1,4 +1,5 @@
-package Introducao.OperadoresTernarios;
+package br.com.gubee.introducao.operadoresternarios;
+
 
 class TernaryOperator {
     public static void main(String[] args) {

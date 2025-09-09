@@ -1,4 +1,4 @@
-package Introducao.PatternMatching;
+package br.com.gubee.introducao.patternmatching;
 
 public class PatternMatching {
      public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Introducao.SealedClass;
+package br.com.gubee.introducao.sealedclass;
 
 //Não deve permitir.
 public record Triangulo() implements Quadrilatero {
