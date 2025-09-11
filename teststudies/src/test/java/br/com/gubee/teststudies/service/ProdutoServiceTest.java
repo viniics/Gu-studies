@@ -108,7 +108,6 @@ public class ProdutoServiceTest {
     @Test
     void deletarProdutoTest() {
         doNothing().when(produtoRepository).deleteById(1L);
-
         produtoService.deletar(1L);
     }
 }
