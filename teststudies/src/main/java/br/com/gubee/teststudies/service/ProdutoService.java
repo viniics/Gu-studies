@@ -31,7 +31,7 @@ public class ProdutoService {
     }
 
     public Optional<ProdutoResponseDTO> buscarPorId(Long id) {
-        return repository.findById(id).map(this::toResponseDTO);
+        return Optional.of(repository.findById(id).map(this::toResponseDTO).orElseThrow(() -> new RuntimeException("Produto não encontrado")));
     }
 
     public ProdutoResponseDTO atualizar(Long id, ProdutoRequestDTO dto) {
